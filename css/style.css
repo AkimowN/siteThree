@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
-body {
-    font-family: 'Port Lligat Slab', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@400;600&family=Playfair+Display:wght@700&family=Port+Lligat+Slab&family=Roboto&display=swap');
 .wrapper{
     width: 1682px;
 }
@@ -27,17 +24,31 @@ body {
     text-transform: uppercase;
     color: #BA7894;
     padding-left: 10px;
+    font-family: 'Port Lligat Slab';
 }
 .logo .links{
     display: flex;
+    align-items: center;
 }
 .logo .links a {
     padding-right: 46px;
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Manrope';
 }
 .logo .links .language {
     display: flex;
     align-items: center;
     padding-right: 58px;
+    gap: 6px;
+}
+.logo .links .language p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #141414;
+    font-family: 'Manrope';
 }
 .logo .links .language img{
     height: 6px;
@@ -47,13 +58,137 @@ body {
     display: flex;
     gap: 20px;
 }
-.logo .links .btn-header:nth-child(1){
+.logo .links .btnOne{
     border: 1.5px solid #141414;
     border-radius: 5px;
     color: #141414;
+    font-family: 'Manrope';
     font-weight: 700;
     font-size: 16px;
-    width: 43px;
-    height: 24px;
+    width: 91px;
+    height: 52px;
+    background-color: white;
 }
+.logo .links .btnTwo{
+    border: 1.5px solid #141414;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    width: 91px;
+    height: 52px;
+    background-color: black;
+}
+.main{
+    background: linear-gradient(89.61deg, #422A3C 55.75%, rgba(66, 42, 60, 0.85) 66.03%, rgba(66, 42, 60, 0.8) 75.96%, rgba(66, 42, 60, 0.31) 84.81%, rgba(66, 42, 60, 0) 99.7%);
+    width: 100%;
+    height: 833px;
+    margin-top: 29px;
+}
+.main .text-main {
+    padding-left: 218px;
+    padding-top: 234px;
+}
+.main .text-main .text {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.main .text-main .text p {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    color: white;
+}
+.main .service-text {
+    color: #F7E5C1;
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Playfair Display';
+    width: 510px;
+    height: 160px;
+    padding-top: 7px;
+}
+.main .textOne{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Manrope';
+    width: 508px;
+    height: 62px;
+    color: #FFFFFF;
+}
+.main .main-input{
+    background: #FFFFFF;
+    box-shadow: -1.33333px 0px 17.3333px rgba(0, 0, 0, 0.1);
+    border-radius: 61.3333px;
+    width: 949px;
+    height: 88px;
+    margin-top: 50px;
+}
+.service{
+    display: flex;
+    gap: 25px;
+    padding-left: 40px;
+    padding-top: 14px;
+}
+.serviceOne{
+    width: 307px;
+}
+.serviceOne .service-main{
+    display: flex;
+    justify-content: space-between;
+}
+.service h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #BA7894;
+    font-family: 'Inter';
+}
+.service input {
+    margin-top: 14px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+}
+.service input:active{
+    outline: none;
+}
+.service input:hover{
+    outline: none;
+}
+.service input:focus{
+    outline: none;
+}
+.service .serviceOne img{
+    padding-top: 15px;
+}
+.service .border {
+    border: 1px solid black;
+    width: 307px;
+    margin-top: 11px;
+}
+.service .btn {
+    margin-left:24px;
+}
+.service .btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #BA7894;
+    border-radius: 56px;
+    width: 211px;
+    height: 66px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Manrope';
+}
+
+
+
+
 
