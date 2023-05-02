@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;600&family=Playfair+Display:wght@700&family=Port+Lligat+Slab&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;600&family=Playfair+Display:wght@600;700&family=Port+Lligat+Slab&family=Roboto&display=swap');
 .wrapper{
     width: 1682px;
 }
@@ -273,85 +273,91 @@
     font-weight: 400;
     font-size: 20px;
 }
-.slideThree {
+.slideThree{
     display: flex;
     justify-content: center;
-    padding-top: 69px;
+    margin-top: 69px;
 }
 .slideThree .cards {
     display: flex;
     justify-content: space-between;
 }
-.slideThree .cards .card{
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.24);
-    border-radius: 24px;
-    width: 384px;
-    height: 536px;
-    display: flex;
-}
-.slideThree .cards .card .card-img img{
-    border-top-right-radius: 24px;
-    border-top-left-radius: 24px;
-}
-.slideThree .svg{
-    display: flex;
-    align-items: center;
-    padding-left: 24px;
-    padding-top: 28px;
-}
-.slideThree .svg p {
-    font-family: 'Inter';
-    color: #BA7894;
-    font-weight: 400;
-    font-size: 16px;
-    padding-left: 10px;
-}
-.slideThree .svg h2 {
-    padding-left: 186px;
-    font-weight: 700;
-    font-size: 18px;
-    font-family: 'Playfair Display';
-}
-.salonname {
+.card {
     display: flex;
     flex-direction: column;
-    padding-left: 24px;
-    padding-top: 31px;
+    align-items: center;
+    width: 384px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 24px;
+    overflow: hidden;
 }
-.salonname h2 {
+
+.card .preview {
+    width: 384px;
+    height: 275px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.card-content h2 {
     font-weight: 700;
     font-size: 24px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display'
 }
-.slideThree .placeholder {
-    display: flex;
-}
-.salonname p {
-    padding-top: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    font-family: 'Inter';
-    color: #555555;
-    padding-left: 15px;
-    width: 336px;
-    height: 38px;
-}
-.slideThree .salonname .btn {
+
+.score {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
-.slideThree .salonname .btn button {
-    width: 336px;
-    height: 53px;
+.slideThree .score h2 {
     font-weight: 700;
+    font-size: 18px;
+    font-family: 'Playfair Display'
+}
+
+.star-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.placeholder {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.placeholder p {
+    display: flex;
+    align-items: center;
+    width: 336px;
+    height: 38px;
+    color: #555555;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    font-family: 'Playfair Display';
+}
+.slideThree .card .btn {
+    background: #FFFFFF;
+    color: #BA7894;
+}
+.card button {
+    width: 100%;
     color: #FFFFFF;
     background: #BA7894;
     border: 1px solid #BA7894;
     border-radius: 8px;
-    margin-top: 24px;
+    width: 336px;
+    height: 53px;
 }
 .slideFour {
     display: flex;
@@ -360,6 +366,7 @@
     width: 100%;
     height: 1085px;
     background: linear-gradient(128.1deg, #FDFDFD 5.48%, #F0F0F0 89.93%);
+    margin-top: 75px;
 }
 .slideFour .text {
     display: flex;
@@ -381,6 +388,62 @@
     font-weight: 700;
     font-size: 45px;
     font-family: 'Playfair Display';
+}
+.slideFour .backg .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideFour .backg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 67px;
+    width: 100%;
+    height: 688px;
+    background: #422A3C;
+    border-radius: 40px;
+}
+.slideFour .backg .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 576px;
+    height: 339px;
+}
+.slideFour .backg .text2 p {
+    color: #EDFFF0;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Manrope';
+    line-height: 32px;
+}
+.slideFour .backg .text2 .p2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.slideFour .text2 h2{
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color:white;
+    padding-top: 20px;
+    width: 601px;
+}
+.slideFour .text2 h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    padding-top: 12px;
+    line-height: 180%;
+    width: 594px;
+    height: 102px;
 }
 
 
