@@ -1,0 +1,81 @@
+.wrapper{
+    width: 1682px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding-top: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo .img-logo {
+    display: flex;
+    align-items: center;
+}
+.logo .logo-header{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #BA7894;
+    padding-left: 10px;
+    font-family: 'Port Lligat Slab';
+}
+.logo .links{
+    display: flex;
+    align-items: center;
+}
+.logo .links a {
+    padding-right: 46px;
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Manrope';
+}
+.logo .links .language {
+    display: flex;
+    align-items: center;
+    padding-right: 58px;
+    gap: 6px;
+}
+.logo .links .language p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #141414;
+    font-family: 'Manrope';
+}
+.logo .links .language img{
+    height: 6px;
+    width: 12px;
+}
+.logo .links .btn-header {
+    display: flex;
+    gap: 20px;
+}
+.logo .links .btnOne{
+    border: 1.5px solid #141414;
+    border-radius: 5px;
+    color: #141414;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    width: 91px;
+    height: 52px;
+    background-color: white;
+}
+.logo .links .btnTwo{
+    border: 1.5px solid #141414;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    width: 91px;
+    height: 52px;
+    background-color: black;
+}
